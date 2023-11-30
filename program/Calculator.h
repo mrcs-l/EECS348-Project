@@ -7,4 +7,4 @@ class Calculator {
 		static double evaluate(AST ast) {
 			return ast.evaluate();
 		}
-}
+};
