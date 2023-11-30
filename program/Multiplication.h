@@ -5,7 +5,6 @@
 
 class Multiplication : public BinaryOperator {
     public:
-        Multiplication();
         float Calculate(float lhs, float rhs) const override;
 };
 

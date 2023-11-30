@@ -5,7 +5,6 @@
 
 class Subtraction : public BinaryOperator {
     public:
-        Subtraction();
         float Calculate(float lhs, float rhs) const override;
 };
 

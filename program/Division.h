@@ -5,7 +5,6 @@
 
 class Division : public BinaryOperator {
     public:
-        Division();
         float Calculate(float lhs, float rhs) const override;
 };
 
