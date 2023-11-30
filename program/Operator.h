@@ -1,9 +1,20 @@
 #ifndef OPERATOR_H
 #define OPERATOR_H
 
+#include <bits/stdc++.h> 
+using namespace std; 
+
 class Operator {
-    public:
-        virtual float Calculate(float lhs, float rhs);
+	public:
+		string symbols;
+		int params; // number of parameters?
+
+		Operator(string inputSymbols, int inputParams) {
+			symbols = inputSymbols;
+			params = inputParams;
+		}
+
+		virtual float Calculate(float lhs, float rhs) = 0;
 };
 
 #endif
