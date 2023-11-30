@@ -4,8 +4,10 @@
 #include "BinaryOperator.h"
 
 class Multiplication : public BinaryOperator {
-    public:
-        float Calculate(float lhs, float rhs) const override;
+	public:
+		float Calculate(float lhs, float rhs) {
+			return lhs * rhs;
+		};
 };
 
 #endif
