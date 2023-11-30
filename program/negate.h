@@ -5,7 +5,6 @@
 
 class NegationOperator : public UnaryOperator {
     public:
-        NegationOperator(){}
         float Calculate(float val) {
             return -val;
         
