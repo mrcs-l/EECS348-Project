@@ -4,7 +4,7 @@
 
 class Calculator {
 	public:
-		static double evaluate(AST ast) {
+		static double evaluate(AST &ast) {
 			return ast.evaluate();
 		}
 };
