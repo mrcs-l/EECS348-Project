@@ -14,7 +14,7 @@ class Operator {
 			params = inputParams;
 		}
 
-		virtual float Calculate(float lhs, float rhs) = 0;
+		virtual float Calculate() = 0;
 };
 
 #endif
