@@ -3,7 +3,7 @@
 
 #include "UnaryOperator.h"
 
-class NegationOperator : public UnaryOperator {
+class Negate : public UnaryOperator {
     public:
         float Calculate(float val) {
             return -val;
