@@ -4,11 +4,9 @@
 #include "Operator.h"
 
 class UnaryOperator : public Operator {
-
-	public:
-		int params = 1;
-		
-		virtual float Calculate(float exp) = 0;
+public:
+	int params = 1;
+	virtual float Calculate(float exp) = 0;
 };
 
-#endif
+#endif // UNARYOPERATOR_H

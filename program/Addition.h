@@ -4,10 +4,10 @@
 #include "BinaryOperator.h"
 
 class Addition : public BinaryOperator {
-    public:
-        float Calculate(float lhs, float rhs) {
-			return lhs + rhs;
-		};
+public:
+	double Calculate(float lhs, float rhs) {
+		return lhs + rhs;
+	};
 };
 
-#endif
+#endif // ADDITION_H

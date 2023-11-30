@@ -4,11 +4,9 @@
 #include "Operator.h"
 
 class BinaryOperator : public Operator {
-
-	public:
-		int params = 2;
-		
-		virtual float Calculate(float lhs, float rhs) = 0;
+public:
+	const int params = 2;
+	virtual double Calculate(double lhs, double rhs) = 0;
 };
 
-#endif
+#endif // BINARYOPERATOR_H

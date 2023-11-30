@@ -4,10 +4,13 @@
 #include "BinaryOperator.h"
 
 class Division : public BinaryOperator {
-	public:
-		float Calculate(float lhs, float rhs) {
-			return lhs / rhs;
-		};
+public:
+	double Calculate(double lhs, double rhs) {
+
+		// @TODO: handle divide by zero errors
+		
+		return lhs / rhs;
+	};
 };
 
-#endif
+#endif // DIVISION_H

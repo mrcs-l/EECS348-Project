@@ -4,11 +4,10 @@
 #include "UnaryOperator.h"
 
 class Positive : public UnaryOperator {
-    public:
-        float Calculate(float val) {
-            return val;
-        
-        }
+public:
+	double Calculate(double val) {
+		return val;
+	};
 };
 
-#endif
+#endif // POSITIVE_H

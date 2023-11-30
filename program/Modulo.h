@@ -4,10 +4,10 @@
 #include "BinaryOperator.h"
 
 class Modulo : public BinaryOperator {
-    public:
-        float Calculate(float lhs, float rhs) {
-            return (int)lhs % (int)rhs;
-        };
+public:
+	double Calculate(double lhs, double rhs) {
+		return (int)lhs % (int)rhs;
+	};
 };
 
-#endif
+#endif // MODULO_H
