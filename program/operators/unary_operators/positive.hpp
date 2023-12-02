@@ -1,12 +1,12 @@
 #ifndef POSITIVE_H
 #define POSITIVE_H
 
-#include "UnaryOperator.h"
+#include "unary_operator.hpp"
 
 class Positive : public UnaryOperator {
 public:
-	double Calculate(double val) {
-		return val;
+	double calculate(std::vector<double>& args) {
+		return args[0];
 	};
 };
 

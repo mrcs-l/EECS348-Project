@@ -1,12 +1,12 @@
 #ifndef SUBTRACTION_H
 #define SUBTRACTION_H
 
-#include "BinaryOperator.h"
+#include "binary_operator.hpp"
 
 class Subtraction : public BinaryOperator {
 public:
-	double Calculate(double lhs, double rhs) {
-		return lhs - rhs;
+	double calculate(std::vector<double>& args) {
+		return args[0] - args[1];
 	};
 };
 
